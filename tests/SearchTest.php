@@ -22,6 +22,7 @@ class SearchTest extends TestCase
             ->type('12', 'currency')
             ->select('GBP', 'currency-code')
             ->press('Search')
+            ->see('12')
             ->see('GBP');
     }
 }
