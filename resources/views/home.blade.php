@@ -10,7 +10,14 @@
     </div>
     <div class="form-group">
         {!! Form::label('currency-code', 'Currency Code:', ['class' => 'control-label']) !!}
-        {!! Form::select('currency-code', array('EUR', 'GBP', 'HKD', 'JPY', 'ZAR', 'CAD'), NULL, array('class' => 'form-control')); !!}
+        {!! Form::select('currency-code', array(
+            'EUR' => 'EUR',
+            'GBP' => 'GBP',
+            'HKD' => 'HKD',
+            'JPY' => 'JPY',
+            'ZAR' => 'ZAR',
+            'CAD' => 'CAD',
+        ), NULL, array('class' => 'form-control')); !!}
     </div>
     {!! Form::submit('Search', ['class' => 'btn btn-raised btn-primary']) !!}
     {!! Form::close() !!}
