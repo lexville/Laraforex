@@ -16,4 +16,4 @@ Laraforex checks current exchange rates against the USD.
 
 Made with :heart:
 
-A lexville production
+&copy; A lexville production
