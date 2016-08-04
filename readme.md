@@ -2,7 +2,7 @@
 
 Laraforex checks current exchange rates against the USD.
 
-#Setup
+###Setup
 
 1. Run composer update
 
