@@ -10,9 +10,11 @@ Laraforex checks current exchange rates against the USD.
 
 3. Add environment variables in .env File
 
-4. Run php artisan currency:update --openexchangerates
+4. Run composer install
 
-5. Enjoy :simple_smile:
+5. Run php artisan currency:update --openexchangerates
+
+6. Enjoy :simple_smile:
 
 Made with :heart:
 
