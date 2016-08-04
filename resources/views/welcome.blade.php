@@ -8,9 +8,16 @@
         <link rel="stylesheet" href="/css/sweetalert.css" />
     </head>
     <body>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">Laraforex</a>
+            </div>
+          </div>
+        </nav>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                @yield('content')
             </div>
         </div>
         <script src="/js/jquery.min.js"></script>
