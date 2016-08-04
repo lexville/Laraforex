@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-    <h3 class="text-center"> The {{$currencyCodeQuery}} exchange Rate is: </h3>
+    <h3 class="text-center"> The {{$currencyCodeQuery}} exchange rate for ${{$query}} is: </h3>
     <h1 class="text-center">@currency($query, $currencyCodeQuery)</h1>
     <br>
     <h3 class="text-center"> Other Exchange Rates </h3>
