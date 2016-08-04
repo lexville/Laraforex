@@ -15,3 +15,8 @@ Route::get('/', [
     'uses' => 'HomeController@index',
     'as' => 'home'
 ]);
+
+Route::get('/convert', [
+    'uses' => 'HomeController@getSearchResults',
+    'as' => 'results'
+]);

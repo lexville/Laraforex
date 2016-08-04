@@ -17,4 +17,11 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function getSearchResults(Request $request)
+    {
+        $query = $request->input('currency');
+
+        return view('convert', ['query' => $query]);
+    }
 }
