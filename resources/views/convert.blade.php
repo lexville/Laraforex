@@ -40,6 +40,7 @@
         <td>@currency($query, 'ZAR')</td>
       </tr>
       <tr>
+        <td>Canadian Dollar</td>
         <td>CAD</td>
         <td>@currency($query, 'CAD')</td>
       </tr>
