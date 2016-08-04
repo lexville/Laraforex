@@ -158,6 +158,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Casinelli\Currency\CurrencyServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
     ],
 
@@ -206,7 +207,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Currency' => Casinelli\Currency\Facades\Currency::class,
         'Input' => Illuminate\Support\Facades\Input::class,
-
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 
