@@ -22,6 +22,11 @@ class HomeController extends Controller
     {
         $query = $request->input('currency');
 
-        return view('convert')->with('query', $query);
+        $currencyCodeQuery = $request->input('currency-code');
+
+        return view('convert', [
+            'query' => $query,
+            'currencyCodeQuery' => $currencyCodeQuery
+        ]);
     }
 }
