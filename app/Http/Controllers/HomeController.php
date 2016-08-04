@@ -21,7 +21,7 @@ class HomeController extends Controller
     public function getSearchResults(Request $request)
     {
         $query = $request->input('currency');
-
-        return view('convert', ['query' => $query]);
+        
+        return view('convert')->with('query', $query);
     }
 }

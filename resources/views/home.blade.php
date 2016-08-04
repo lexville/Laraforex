@@ -2,7 +2,7 @@
 
 @section('content')
     <h3 class="text-center">Convert currency</h3>
-    {!! Form::open(array()) !!}
+    {!! Form::open(array('route' => 'results', 'method' => 'GET')) !!}
 
     <div class="form-group">
         {!! Form::label('currency', 'Amount:', ['class' => 'control-label']) !!}
